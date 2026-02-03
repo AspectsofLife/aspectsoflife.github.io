@@ -1,6 +1,6 @@
-# The Aspects of Life
+# Aspects of life
 
-**The Aspects of Life** is a digital storytelling archive project established in 2026. It serves as a platform to share and preserve life stories, emphasizing that every story matters and every life is a chapter.
+**Aspects of life** is a digital storytelling archive project established in 2026. It serves as a platform to share and preserve life stories, emphasizing that every story matters and every life is a chapter.
 
 ## Features
 
@@ -29,8 +29,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/the-aspects-of-life.git
-   cd the-aspects-of-life
+   git clone https://github.com/YOUR_USERNAME/aspects-of-life.git
+   cd aspects-of-life
    ```
 
 2. Install dependencies:
@@ -73,4 +73,4 @@ This project is configured for deployment to GitHub Pages.
 
 ## License
 
-All rights reserved. The Aspects of Life Project — Est. 2026.
+All rights reserved. Aspects of life Project — Est. 2026.

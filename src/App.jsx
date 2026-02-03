@@ -47,7 +47,7 @@ const HeroSection = () => {
               variants={fadeInUp}
               className="font-accent text-2xl md:text-3xl text-[#E07A5F]"
             >
-              Aspects of Life
+              Aspects of life
             </motion.p>
             
             <motion.h1 
@@ -197,7 +197,7 @@ const MissionSection = () => {
             <p className="font-body text-sm tracking-widest uppercase text-[#E07A5F]">Our Mission</p>
             
             <h2 className="font-heading text-4xl md:text-5xl font-normal tracking-tight text-[#1A1A1A]">
-              The Aspects of Life
+              Aspects of life
             </h2>
             
             <div className="space-y-6 font-body text-lg leading-relaxed text-[#555555]">
@@ -207,7 +207,7 @@ const MissionSection = () => {
                 the immigrant who built a new home, the parent who sacrificed everything.
               </p>
               <p>
-                <strong className="text-[#1A1A1A]">The Aspects of Life</strong> is more than a book — 
+                <strong className="text-[#1A1A1A]">Aspects of life</strong> is more than a book — 
                 it's a living archive of human experience. A permanent record that your 
                 great-great-grandchildren can hold and read. Your chapter. Your legacy.
               </p>
@@ -320,9 +320,9 @@ const Footer = () => {
   return (
     <footer data-testid="footer" className="py-12 border-t border-[#1A1A1A]/10">
       <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
-        <p className="font-accent text-2xl text-[#E07A5F] mb-2">The Aspects of Life</p>
+        <p className="font-accent text-2xl text-[#E07A5F] mb-2">Aspects of life</p>
         <p className="font-body text-sm text-[#555555]">
-          An Aspects of Life Project — Est. 2026
+          An Aspects of life Project — Est. 2026
         </p>
         <p className="font-body text-xs text-[#555555]/60 mt-4">
           Every story matters. Every life is a chapter.

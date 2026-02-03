@@ -1,0 +1,81 @@
+/* Custom cursor - feather pen */
+* {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%231A1A1A' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z'/%3E%3Cline x1='16' y1='8' x2='2' y2='22'/%3E%3Cline x1='17.5' y1='15' x2='9' y2='15'/%3E%3C/svg%3E") 2 22, auto;
+}
+
+/* Pointer cursor for interactive elements */
+a, button, [role="button"], input[type="submit"], input[type="button"], 
+label[for], select, .cursor-pointer {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23E07A5F' stroke='%231A1A1A' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z'/%3E%3Cline x1='16' y1='8' x2='2' y2='22'/%3E%3Cline x1='17.5' y1='15' x2='9' y2='15'/%3E%3C/svg%3E") 2 22, pointer;
+}
+
+/* Text cursor for inputs */
+input[type="text"], input[type="email"], input[type="password"], 
+input[type="search"], input[type="tel"], input[type="url"], textarea {
+    cursor: text;
+}
+
+/* Custom animations and styles */
+
+.image-collage img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-collage img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* File upload area styling */
+.upload-area {
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+    border-color: hsl(14, 65%, 62%);
+    background-color: hsl(14, 65%, 62%, 0.03);
+}
+
+.upload-area.drag-over {
+    border-color: hsl(14, 65%, 62%);
+    background-color: hsl(14, 65%, 62%, 0.05);
+    transform: scale(1.01);
+}
+
+/* Input focus states */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: hsl(14, 65%, 62%);
+    box-shadow: 0 0 0 3px hsl(14, 65%, 62%, 0.1);
+}
+
+/* Button hover lift */
+.btn-lift {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(224, 122, 95, 0.3);
+}
+
+/* Section fade-in */
+.section-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: sectionFadeIn 0.8s ease forwards;
+}
+
+@keyframes sectionFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered animations */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
